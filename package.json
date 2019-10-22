@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZolotovK/site2019.git"
+  },
+  "author": "ZolotovK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZolotovK/site2019/issues"
+  },
+  "homepage": "https://github.com/ZolotovK/site2019#readme",
+  "dependencies": {
+    "sal.js": "^0.6.3"
+  }
+}
