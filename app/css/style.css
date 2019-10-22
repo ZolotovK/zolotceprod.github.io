@@ -1,0 +1,56 @@
+*,:after,:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 17px;
+    font-family: 'Helvetica';
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: #343a40;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    font-weight: 600;
+}
+
+ .header {   
+    margin: 0 auto;
+    width: 90rem;
+    display: flex;
+    justify-content: space-between;
+  
+} 
+
+.header-items {
+    padding-top: 0.5rem;
+}
+
+.item {
+    padding-right: 3rem;
+}
+
+.item-acc {
+    padding-top: 0.5rem;
+}
+
+.logo {
+    color:#f3f0ff;
+    cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+     color: #f3f0ff; 
+     opacity: .7;
+}
+
+header a:hover {
+    opacity: 1;
+    transition: .2s;
+}
+
