@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZolotovK/site2019.git"
+    "url": "git+https://github.com/ZolotovK/zolotceprod.git"
   },
   "author": "ZolotovK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZolotovK/site2019/issues"
+    "url": "https://github.com/ZolotovK/zolotceprod/issues"
   },
-  "homepage": "https://github.com/ZolotovK/site2019#readme",
+  "homepage": "https://github.com/ZolotovK/zolotceprod#readme",
   "dependencies": {
     "lax.js": "^1.2.5",
     "sal.js": "^0.6.3"
