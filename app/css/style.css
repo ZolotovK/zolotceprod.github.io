@@ -31,7 +31,8 @@ body {
 }
 
 .item {
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .item-acc {
@@ -54,3 +55,122 @@ header a:hover {
     transition: .2s;
 }
 
+.angle-down {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.main-menu {
+    margin-top: 9.5rem;
+    margin-left: 4rem;
+    display: inline-block;
+}
+
+.main-text {
+    display: inline-block;
+}
+
+.main-text h2 {
+    display: inline-block;
+    font-size: 4.5rem;
+    font-weight: 900;
+    padding-bottom: 0.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.7rem;
+    box-shadow:  0 0rem 2rem rgba(0,0,0,.275);
+    color: white;
+    background-color: #2f3438;
+}
+
+.main-text ul {
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    font-family: 'Roboto';
+    font-weight: 200;
+    line-height: 4rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.li-color {
+    color: #575656;
+}
+
+.main-img {
+    float: right;
+    margin-left: 12rem;
+}
+
+.main-btn {
+    /* border: none;
+    width: 15rem;
+    height: 4.5rem;
+    margin-top: 2.5rem;
+    color: #eee;
+    background-color: #5b51ff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    background-image: linear-gradient(53deg,#06beb6 0,#5b86e5 100%); */
+    width: 15rem;
+    height: 4.5rem;
+    margin-top: 1.6rem;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 50px;
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(to right, #7f00ff, #6c63ff);
+    transition: .2s;
+}
+
+.main-btn::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -10px;
+    left: 5%;
+    height: 110%;
+    width: 90%;
+    opacity: 0.8;
+    border-radius: 50px;
+    background: inherit;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .main-btn:hover::after {
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+  }
+
+  .main-btn:hover i {
+      padding-left: 0.8rem;
+    transition: .2s;
+  }

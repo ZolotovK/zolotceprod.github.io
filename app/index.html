@@ -9,31 +9,89 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sal.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>site20!9</title>
 </head>
 <body>  
     <header>
         <div class="main-header">
             <div class="header">       
-                <div class="logo"><p href="#"><i class="fa fa-wheelchair fa-2x" aria-hidden="true"></i></p></div>
-                    <div class="header-items"
-                    data-sal="zoom-out"
-                    data-sal-easing="ease-out-bounce"
-                    data-sal-duration="1200"
-                    data-sal-delay="300">
+                <div class="logo"><p href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></p></div>
+                    <div class="header-items">
                         <span class="item"><a href="#">Blog</a></span>
                         <span class="item"><a href="#">Plans</a></span>
-                        <span class="item"><a href="#">Docs</a></span>
+                        <span class="item" data-toggle="modal" data-target="#exampleModalCenter"><a href="#">Docs</a></span>
                     </div>
-                    <span class="item-acc"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Admin</a></span>
+                    <span class="item-acc"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Admin  <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </header>
+    <section>
+        <div class="main-menu">
+            <div class="main-text"
+            data-sal="slide-right"
+            data-sal-easing="ease-out-bounce"
+            data-sal-duration="1200"
+            data-sal-delay="300">
+                <h2>Our qualities</h2>
+                <ul>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+                    <button class="main-btn">Ready! <i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></button>
+            </div>
+            <div class="main-img"
+            data-sal="slide-left"
+            data-sal-easing="ease-out-bounce"
+            data-sal-duration="1200"
+            data-sal-delay="300">
+            <img src="images/undraw_goals.svg" alt="" height="600" width="900">
+        </div>
+        </div>
+    </section>
     
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/sal.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lax.min.js"></script>
     <script>
-            sal();
-        </script>
+        window.onload = function() {
+	        lax.setup() // init
+
+	    const updateLax = () => {
+		    lax.update(window.scrollY)
+		    window.requestAnimationFrame(updateLax)
+	    }
+	    window.requestAnimationFrame(updateLax)
+    }
+    </script>
+    <script>
+        sal();
+    </script>
 </body>
 </html>
