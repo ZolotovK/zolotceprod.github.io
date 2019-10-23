@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ZolotovK/site2019#readme",
   "dependencies": {
+    "lax.js": "^1.2.5",
     "sal.js": "^0.6.3"
   }
 }
