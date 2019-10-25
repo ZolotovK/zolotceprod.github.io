@@ -18,41 +18,116 @@
             <div class="header">       
                 <div class="logo"><p href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></p></div>
                     <div class="header-items">
-                        <span class="item"><a href="#">Blog</a></span>
-                        <span class="item"><a href="#">Plans</a></span>
-                        <span class="item" data-toggle="modal" data-target="#exampleModalCenter"><a href="#">Docs</a></span>
+                        <span class="item"><a class="text-color-header" href="#">Blog</a></span>
+                        <span class="item"><a class="text-color-header" href="#">Plans</a></span>
+                        <span class="item" data-toggle="modal" data-target="#exampleModalCenter"><a class="text-color-header" href="#">Docs</a></span>
                     </div>
-                    <span class="item-acc"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Admin  <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a></span>
+                  <div class="d-flex">
+                    <div class="dropdown mt-2">
+                    <span class="item-acc" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-70,10"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Sign in  <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a></span>
+                    <div class="dropdown-menu form-header" aria-labelledby="dropdownMenuOffset">
+                        <form class="px-4 py-3">
+                            <div class="form-group">
+                              <label for="exampleDropdownFormEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleDropdownFormPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                <label class="form-check-label" for="dropdownCheck">
+                                  Remember me
+                                </label>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Sign in</button>
+                          </form>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item text-color-form" href="#">New around here? Sign up</a>
+                          <a class="dropdown-item text-color-form" href="#">Forgot password?</a>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </header>
+    <!-- section_one -->
     <section>
         <div class="main-menu">
             <div class="main-text"
             data-sal="slide-right"
             data-sal-easing="ease-out-bounce"
-            data-sal-duration="1200"
+            data-sal-duration="700"
             data-sal-delay="300">
                 <h2>Our qualities</h2>
                 <ul>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
                 </ul>
                     <button class="main-btn">Go <i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></button>
             </div>
             <div class="main-img"
-                data-sal="slide-left"
+                data-sal="zoom-in"
                 data-sal-easing="ease-out-bounce"
-                data-sal-duration="1200"
+                data-sal-duration="700"
                 data-sal-delay="300">
                 <img src="images/undraw_goals.svg" alt="" height="600" width="900">
             </div>
         </div>
     </section>
-    
+    <!-- section_two -->
+    <section>
+        <div class="our-team">
+          <div class="team-wrap">
+            <h2 class="team-text"
+            data-sal="slide-down"
+            data-sal-delay="300"
+            data-sal-easing="ease-out-bounce">Our team</h2>
+            <div class="team"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-out-bounce">
+              <div class="cards card-first">
+                <div class="photo-team photo-team-first"><img src="images/1.jpg" alt="ZOLOTCE"></div>
+               <p>ZOLOTCE&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i></p>
+               <div class="social-main-team">
+                <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+                <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+                <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+            </div>
+              </div>
+              <div class="cards card-second">
+                <div class="photo-team photo-team-second"><img src="images/2.jpg" alt="BRUSSELBOY"></div>
+                <p>BRUSSELBOY&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                <div class="social-main-team">
+                  <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+                  <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+                  <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+              </div>
+              </div>
+              <div class="cards card-third">
+                  <div class="photo-team photo-team-third"><img src="images/3.jpg" alt="NEIGBOR"></div>
+                <p>NEIGBOR&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                <div class="social-main-team">
+                  <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+                  <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+                  <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- section_three -->
+    <section>
+      
+    </section>
     <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
