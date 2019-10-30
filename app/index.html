@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sal.css">
@@ -16,15 +17,15 @@
     <header>
         <div class="main-header">
             <div class="header">       
-                <div class="logo"><p href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></p></div>
+                <div class="logo"><p href="#"><img src="images/fsociety.svg" alt="logo"></p></div>
                     <div class="header-items">
-                        <span class="item"><a class="text-color-header" href="#">Blog</a></span>
-                        <span class="item"><a class="text-color-header" href="#">Plans</a></span>
-                        <span class="item" data-toggle="modal" data-target="#exampleModalCenter"><a class="text-color-header" href="#">Docs</a></span>
+                        <span class="item"><a class="text-color-header" href="#">Магазин</a></span>
+                        <span class="item"><a class="text-color-header" href="#">Навыки</a></span>
+                        <span class="item" data-toggle="modal" data-target="#exampleModalCenter"><a class="text-color-header" href="#">Команда</a></span>
                     </div>
                   <div class="d-flex">
                     <div class="dropdown mt-2">
-                    <span class="item-acc" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-70,10"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Sign in  <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a></span>
+                    <span class="item-acc" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-70,10"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Войти  <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a></span>
                     <div class="dropdown-menu form-header" aria-labelledby="dropdownMenuOffset">
                         <form class="px-4 py-3">
                             <div class="form-group">
@@ -62,15 +63,15 @@
             data-sal-easing="ease-out-bounce"
             data-sal-duration="700"
             data-sal-delay="300">
-                <h2>Our qualities</h2>
+                <h2>Наши качества</h2>
                 <ul>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Опыт разработки более 5 лет</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;99% защита от VAC блокировки</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Низкие цены на читы и скрипты</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Поддержка отвечает в течении 12 часов</li>
+                    <li><i class="fa fa-check li-color" aria-hidden="true"></i>&nbsp;Быстрое адаптирование под новые обновления</li>
                 </ul>
-                    <button class="main-btn">Go <i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></button>
+                    <button class="main-btn">Начать <i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></button>
             </div>
             <div class="main-img"
                 data-sal="zoom-in"
@@ -83,62 +84,77 @@
     </section>
     <!-- section_two -->
     <section>
-        <div class="our-team">
-          <div class="team-wrap">
-            <h2 class="team-text"
-            data-sal="slide-down"
-            data-sal-delay="300"
-            data-sal-easing="ease-out-bounce">Our team</h2>
-            <div class="team"
-            data-sal="slide-up"
-            data-sal-delay="400"
-            data-sal-easing="ease-out-bounce">
-              <div class="cards card-first">
-                <div class="photo-team photo-team-first" data-toggle="modal" data-target="#modal-photo-first"><img src="images/1.jpg" alt="ZOLOTCE"></div>
-               <p>ZOLOTCE&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
-               <div class="social-main-team">
-                <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
-                <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
-                <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
-            </div>
+      <div class="main-shop">
+        <div class="shop">
+          <h2 class="shop-text-wrap"
+          data-sal="zoom-in"
+          data-sal-delay="200"
+          data-sal-easing="ease-out-bounce">Магазин</h2>
+          <div class="shop-cards">
+              <div class="shop-card">
+                <img src="images/counter-strike.svg" alt="counter-strike">
+                <h4>CS: Global Offensive</h4>
+                <p>Пак читов для Counter-Strike: Global Offensive</p>
+                <p class="cheat-version">v2.3</p>
+                <button class="btn-shop">Купить</button>
               </div>
-              <div class="cards card-second">
-                <div class="photo-team photo-team-second" data-toggle="modal" data-target="#modal-photo-second"><img src="images/2.jpg" alt="BRUSSELBOY"></div>
-                <p>THEBRUSSELBOY&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
-                <div class="social-main-team">
-                  <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
-                  <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
-                  <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+              <div class="shop-card">
+                  <img src="images/warcraft.svg" alt="warcraft">
+                  <h4>World of Warcraft</h4>
+                  <p>Скрипты для World of Warcraft</p>
+                  <p class="cheat-version">v0.5.1</p>
+                  <button class="btn-shop">Купить</button>
               </div>
+              <div class="shop-card">
+                  <img src="images/grand-theft-auto-v.svg" alt="grand-theft-auto-v">
+                  <h4>Grand Theft Auto V</h4>
+                  <p>Накрутка денег и уровня Чит в GTA Online. </p>
+                  <p class="cheat-version">v7.1</p>
+                  <button class="btn-shop">Купить</button>
               </div>
-              <div class="cards card-third">
-                  <div class="photo-team photo-team-third" data-toggle="modal" data-target="#modal-photo-third"><img src="images/3.jpg" alt="NEIGBOR"></div>
-                <p>NEIGBOR&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
-                <div class="social-main-team">
-                  <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
-                  <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
-                  <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+              <div class="shop-card">
+                  <img src="images/dota.svg" alt="dota">
+                  <h4>Dota 2</h4>
+                  <p>Скрипты для Dota 2 <br> (опционально) </p>
+                  <p class="cheat-version">v1.1.0</p>
+                  <button class="btn-shop">Купить</button>
               </div>
+              <div class="shop-card">
+                  <img src="images/overwatch.svg" alt="overwatch">
+                  <h4>Overwatch</h4>
+                  <p>Полный пак читов для Overwatch</p>
+                  <p class="cheat-version">v3.9</p>
+                  <button class="btn-shop">Купить</button>
               </div>
-            </div>
+              <div class="shop-card">
+                  <img src="images/rainbow-six.svg" alt="rainbow-six">
+                  <h4>Rainbow Six: Siege</h4>
+                  <p>WH + SILENT AIM <br> (опционально)</p>
+                  <p class="cheat-version">v2.2</p>
+                  <button class="btn-shop">Купить</button>
+              </div>
           </div>
         </div>
+      </div>
     </section>
     <!-- section_three -->
     <section>
         <div class="main-skills">
           <div class="skills">
-            <h2 class="skills-text-wrap">Skills</h2>
+            <h2 class="skills-text-wrap"
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease-out-bounce">Навыки</h2>
             <div class="container-skills">
-              <h3>Lorem ipsum dolor sit amet consectetur</h3>
+              <h3 class="description-progress-first">Разрабатываем продукт 16 часов в сутки</h3>
               <div class="progress" style="height: 9px;">
                 <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <h3 class="description-progress">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+              <h3 class="description-progress">Поддержка отвечает в течении 12 часов</h3>
               <div class="progress" style="height: 9px;">
                 <div class="progress-bar" role="progressbar" style="width: 56%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <h3 class="description-progress">Lorem ipsum dolor sit amet</h3>
+              <h3 class="description-progress">кроссплатформенная разработка</h3>
               <div class="progress" style="height: 9px;">
                 <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -148,57 +164,60 @@
     </section>
     <!-- section_four -->
     <section>
-      <div class="main-shop">
-        <div class="shop">
-          <h2 class="shop-text-wrap">Store</h2>
-          <div class="shop-cards">
-              <div class="shop-card">
-                <img src="images/counter-strike.svg" alt="counter-strike">
-                <h4>CS: Global Offensive</h4>
-                <p>Пак читов для Counter-Strike: Global Offensive</p>
-                <p class="cheat-version">v2.3</p>
-                <button class="btn-shop">Buy</button>
-              </div>
-              <div class="shop-card">
-                  <img src="images/warcraft.svg" alt="warcraft">
-                  <h4>Warcraft</h4>
-                  <p>Скрипты для World of Warcraft</p>
-                  <p class="cheat-version">v0.5.1</p>
-                  <button class="btn-shop">Buy</button>
-              </div>
-              <div class="shop-card">
-                  <img src="images/grand-theft-auto-v.svg" alt="grand-theft-auto-v">
-                  <h4>Grand Theft Auto V</h4>
-                  <p>Накрутка денег и уровня Чит в GTA Online. </p>
-                  <p class="cheat-version">v7.1</p>
-                  <button class="btn-shop">Buy</button>
-              </div>
-              <div class="shop-card">
-                  <img src="images/dota.svg" alt="dota">
-                  <h4>Dota 2</h4>
-                  <p>Скрипты для Dota 2 <br> (опционально) </p>
-                  <p class="cheat-version">v1.1.0</p>
-                  <button class="btn-shop">Buy</button>
-              </div>
-              <div class="shop-card">
-                  <img src="images/overwatch.svg" alt="overwatch">
-                  <h4>Overwatch</h4>
-                  <p>Полный пак читов для Overwatch</p>
-                  <p class="cheat-version">v3.9</p>
-                  <button class="btn-shop">Buy</button>
-              </div>
-              <div class="shop-card">
-                  <img src="images/rainbow-six.svg" alt="rainbow-six">
-                  <h4>Rainbow Six: Siege</h4>
-                  <p>WH + SILENT AIM <br> (опционально)</p>
-                  <p class="cheat-version">v2.2</p>
-                  <button class="btn-shop">Buy</button>
-              </div>
+      <div class="our-team">
+        <div class="team-wrap">
+          <h2 class="team-text"
+          data-sal="slide-down"
+          data-sal-delay="300"
+          data-sal-easing="ease-out-bounce">Команда</h2>
+          <div class="team"
+          data-sal="slide-up"
+          data-sal-delay="400"
+          data-sal-easing="ease-out-bounce">
+            <div class="cards card-first">
+              <div class="photo-team photo-team-first" data-toggle="modal" data-target="#modal-photo-first"><img src="images/1.jpg" alt="ZOLOTCE"></div>
+             <p>ZOLOTCE&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
+             <div class="social-main-team">
+              <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+              <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+              <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+          </div>
+            </div>
+            <div class="cards card-second">
+              <div class="photo-team photo-team-second" data-toggle="modal" data-target="#modal-photo-second"><img src="images/2.jpg" alt="BRUSSELBOY"></div>
+              <p>THEBRUSSELBOY&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
+              <div class="social-main-team">
+                <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+                <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+                <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+            </div>
+            </div>
+            <div class="cards card-third">
+                <div class="photo-team photo-team-third" data-toggle="modal" data-target="#modal-photo-third"><img src="images/3.jpg" alt="NEIGBOR"></div>
+              <p>NEIGBOR&nbsp;<i class="fa fa-check-circle verified" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="right" data-content="Verified" data-trigger="hover"></i></p>
+              <div class="social-main-team">
+                <a href="https://vk.com/zolotovich" target="_blank"><span class="social-team social-vk"><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+                <a href="https://t.me/ZolotovK" target="_blank"><span class="social-team social-telegram"><i class="fa fa-telegram" aria-hidden="true"></i></span></a>
+                <a href="https://www.instagram.com/thebrusselboy/" target="_blank"><span class="social-team social-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+            </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
+  </section>
+  <!-- section_five -->
+  <section>
+    <div class="main-footer">
+      <div class="footer">
+        <div><a href="#" target="_blank">status</a></div>
+        <div><a href="#" target="_blank">info</a></div>     
+        <div class="logo-footer"><a><img src="images/fsociety.svg" alt="logo"></a></div>
+        <div><a href="#" target="_blank">help</a></div>
+        <div><a href="#" target="_blank">Q&A</a></div>
+      </div>
+      <div><h4>© 2019 THEBRUSSELBOY</h4></div>
+    </div>
+  </section>
     <!-- Modal header-docs -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -210,7 +229,7 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+          Здесь пока ничего ;)
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

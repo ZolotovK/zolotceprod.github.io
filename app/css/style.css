@@ -6,7 +6,7 @@
 
 body {
     font-size: 17px;
-    font-family: 'Helvetica';
+    font-family: 'Rubik';
 }
 
 .main-header {
@@ -15,7 +15,7 @@ body {
     height: 5rem;
     background-color: #343a40;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-    font-weight: 600;
+    font-weight: 500;
 }
 
  .header {   
@@ -71,7 +71,6 @@ body {
 
 .main-menu {
     margin-top: 9.5rem;
-    padding-bottom: 9.5rem;
     margin-left: 4rem;
     /* display: inline-block; */
     display: inline-flex; /*бля наверно нужно будет ФИКСИТЬ!!!! РАБОТАЕТ ГАВНЯНО. Возможно пофиксится через media*/
@@ -98,8 +97,8 @@ body {
 .main-text ul {
     margin-top: 2.5rem;
     font-size: 1.7rem;
-    font-family: 'Roboto';
-    font-weight: 200;
+    font-family: 'Rubik';
+    font-weight: 300;
     line-height: 4rem;
 }
 
@@ -234,7 +233,7 @@ li {
 .team p {
     color: #f3f0ff;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .social-team {
@@ -265,9 +264,6 @@ li {
 
 .main-skills {
     display: flex;
-    margin-top: 9.5rem;
-    margin-bottom: 9.5rem;
-    margin-left: 4rem;
 }
 
 .skills-text-wrap {
@@ -279,12 +275,23 @@ li {
     color: #2f3438;
 }
 
+.skills {
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+    padding-left: 4rem;
+}
+
 .progress-bar {
     background: linear-gradient(to right, #7f00ff, #6c63ff);   
 }
 
 .description-progress {
     padding-top: 2.7rem;
+    font-weight: 300;
+}
+
+.description-progress-first {
+    font-weight: 300;
 }
 
 .modal-title-text {
@@ -293,10 +300,9 @@ li {
 }
 
 .main-shop {
-  
     margin-top: 9.5rem;
-    margin-bottom: 9.5rem;
     background: #202020; 
+    box-shadow: 0 0rem 3rem rgba(0,0,0,.575);
     /* background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #2a2a2a, #0f0f0f);  */
 }
@@ -310,7 +316,7 @@ li {
 
 .shop {
     padding-top: 3.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
 }
 
 .shop-cards {
@@ -335,7 +341,7 @@ li {
     padding-right: 3rem;
     margin-bottom: 4rem;
     color: #f3f0ff;
-    background-color:#E4E5E6;
+    background-color:#f1f1f1; /*#ededed*/
     border-radius: 25px;
     transition: .2s ease-in-out; 
 }
@@ -379,3 +385,42 @@ li {
     box-shadow: 0rem .3rem .6rem rgba(108,99,255,.775);
 }
 
+.main-footer {
+    background-color: #151717; /* #171919. shas #0f1010 */
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.75rem; /*5.5*/
+    padding-bottom: 1.75rem; /*5.5*/
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    color: #f3f0ff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+}
+
+.footer a {
+    color: #f3f0ff !important;
+    text-decoration: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.main-footer h4 {
+    color: #f3f0ff;
+    text-align: center;
+    font-size: .9rem;
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.logo-footer {
+    color:#f3f0ff;
+}
