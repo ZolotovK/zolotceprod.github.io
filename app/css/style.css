@@ -72,9 +72,9 @@ body {
 .main-menu {
     margin-top: 9.5rem;
     margin-left: 4rem;
+    margin-right: 4rem;
     /* display: inline-block; */
     display: inline-flex; /*бля наверно нужно будет ФИКСИТЬ!!!! РАБОТАЕТ ГАВНЯНО. Возможно пофиксится через media*/
-   
 }
 
 .main-text {
@@ -113,6 +113,11 @@ li {
 .main-img {
     float: right;
     margin-left: 12rem; /*был padding*/
+}
+
+.img-wrap {
+    height: 600px;
+    width: 900px;
 }
 
 .main-btn {
